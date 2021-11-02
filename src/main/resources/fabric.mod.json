@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dimindustry",
+  "version": "${version}",
+  "name": "Dimensional Industry",
+  "description": "An addon mod for Dimensional Doors centered around harnessing the power of rifts for industrial purposes.\n Thanks to the entire Dimensional Doors team, as well as all those who assisted with ideas in the DD Discord!",
+  "authors": [
+    "WaterPicker",
+    "TechDweebGaming",
+    "Runemoro",
+    "ProjectET"
+  ],
+  "contact": {
+    "sources": "https://github.com/DimensionalDevelopment/Dimensional-Industry",
+    "issues": "https://github.com/DimensionalDevelopment/Dimensional-Industry/issues"
+  },
+  "license": [
+    "MIT"
+  ],
+  "icon": "",
+  "entrypoints": {
+    "main": [
+      "org.dimdev.dimindustry.DimensionalIndustry"
+    ],
+    "client": [
+      "org.dimdev.dimindustry.client.DimensionalIndustryClient"
+    ]
+  },
+  "depends": {
+    "minecraft": ">=1.17.1",
+    "fabricloader": ">=0.11.0",
+    "fabric": ">=0.40.0",
+    "cloth-config2": ">=5.0.30"
+  }
+}
