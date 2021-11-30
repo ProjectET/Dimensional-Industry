@@ -1,6 +1,5 @@
 package org.dimdev.dimindustry;
 
-
 import me.shedaniel.autoconfig.ConfigData;
 
 public final class ModConfig implements ConfigData {
